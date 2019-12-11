@@ -8,8 +8,8 @@
 
 
 (deftest reset
-  (is (= (part1/restore [2 4 4 5 99 0]) [2 12 2 5 99 0]))
-  (is (= (part1/restore [1 1 1 4 99 5 6 0 99]) [1 12 2 4 99 5 6 0 99])))
+  (is (= (part1/reset [2 4 4 5 99 0]) [2 12 2 5 99 0]))
+  (is (= (part1/reset [1 1 1 4 99 5 6 0 99]) [1 12 2 4 99 5 6 0 99])))
 
 
 (deftest intcode
